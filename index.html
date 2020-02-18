@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kanelm</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet"> 
+
+    <!-- <link rel="stylesheet" href="https://unpkg.com/mini.css@3.0.0/dist/mini-default.min.css"> -->
+    <link href="./main.css" type="text/css" rel="stylesheet">
+    <script src="elm.js"></script>
+  </head>
+  <body>
+    <div id="elm"></div>
+    <script >
+        let app = Elm.Main.init({
+            node:document.getElementById("elm")
+        });
+        // let app = Elm.Test.init({
+        //     node:document.getElementById("elm")
+        // })
+    </script>
+  </body>
+</html>
